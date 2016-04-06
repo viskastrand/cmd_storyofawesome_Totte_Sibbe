@@ -10,6 +10,8 @@ namespace cmd_storyofawesome_Totte_Sibbe
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("if i see this it works");
+            Console.ReadLine();
         }
     }
 }
