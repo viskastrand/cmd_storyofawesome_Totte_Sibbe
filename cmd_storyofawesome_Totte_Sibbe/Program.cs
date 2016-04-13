@@ -14,7 +14,7 @@ namespace cmd_storyofawesome_Totte_Sibbe
             string input;
 
             Console.WriteLine("---Välkommen till Story Of Awesome---");
-            Console.WriteLine("\nDu är påväg hem och du ska gå in i ditt hus. Sedan göra dig i ordning för att sova.");
+            Console.WriteLine("\nDU ska in, starta och köra iväg din bil.");
 
             while (true) //oändlig loop
             {
@@ -25,11 +25,11 @@ namespace cmd_storyofawesome_Totte_Sibbe
                 {
                     if (harNyckel)
                     {
-                        Console.WriteLine("Du öppnar dörren och går igenom");
+                        Console.WriteLine("Du öppnar dörren, sätter dig i bilen och kör iväg.");
                         break;
                     }
                     else
-                        Console.WriteLine("Den är låst");
+                        Console.WriteLine("Bildörren är låst, du behöver en nyckel.");
                 }
 
                 else if (input == "nyckel" || input == "ta nyckel")
@@ -38,11 +38,11 @@ namespace cmd_storyofawesome_Totte_Sibbe
                     harNyckel = true;
                 }
                 else
-                    Console.WriteLine("Icke gilltigt eller felstavat commando!");
+                    Console.WriteLine("Ditt commando är inte giltigt.");
 
             }
 
-            Console.WriteLine("\nDu vann!!! Spelet stängs av...");
+            Console.WriteLine("\nDu vann!");
             Console.ReadLine();
         }
     }
